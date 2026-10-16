@@ -21,7 +21,7 @@
 ## 7. Testing Decision: Use Automated Security Tests
 **Reason:** Automated tests make it easier to verify that normal file operations work and unsafe operations are rejected consistently.
 
-**Current result:** 28 automated tests pass.
+**Current result:** 29 automated tests pass.
 
 ## 8. Deployment Decision: Defer Remote Access
 **Reason:** The server should complete local functionality, security validation, and client integration before remote deployment is considered. HTTPS and process management will only be configured if required by the project.
